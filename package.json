@@ -4,7 +4,7 @@
 	"description": "Allows to run code through a quick access action button.",
 	"version": "0.0.2",
 	"engines": {
-		"vscode": "^1.62.0"
+		"vscode": "^1.59.0"
 	},
 	"categories": [
 		"Other"
