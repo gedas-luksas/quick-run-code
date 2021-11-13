@@ -1,10 +1,8 @@
 import * as vscode from 'vscode';
 
 export class CodeRunner implements vscode.Disposable {
-    public async runCode() {
-        vscode.commands.executeCommand('workbench.action.debug.run', ['noDebug']).then((value) => {
-            vscode.window.showInformationMessage(`Got: ${value}`);
-        });
+    public runCode() {
+        vscode.commands.executeCommand('workbench.action.debug.run', ['noDebug']);
     }
 
     public stopRunningCode() {
