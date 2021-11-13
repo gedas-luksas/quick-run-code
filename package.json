@@ -27,7 +27,7 @@
 		"menus": {
 			"editor/title/run": [
 				{
-					"when": "!inDebugMode",
+					"when": "!inDebugMode && resourceLangId == python",
 					"command": "quick-run-code.run",
 					"group": "navigation"
 				}
