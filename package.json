@@ -2,7 +2,7 @@
 	"name": "quick-run-code",
 	"displayName": "Quick Run Code",
 	"description": "Allows to run code through a quick access action button.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
@@ -43,7 +43,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.62.0",
+		"@types/vscode": "^1.59.0",
 		"@types/glob": "^7.1.4",
 		"@types/mocha": "^9.0.0",
 		"@types/node": "14.x",
