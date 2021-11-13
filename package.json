@@ -27,6 +27,7 @@
 		"menus": {
 			"editor/title/run": [
 				{
+					"when": "!inDebugMode",
 					"command": "quick-run-code.run",
 					"group": "navigation"
 				}
