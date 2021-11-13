@@ -2,7 +2,7 @@
 	"name": "quick-run-code",
 	"displayName": "Quick Run Code",
 	"description": "Allows to run code through a quick access action button.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.62.0"
 	},
